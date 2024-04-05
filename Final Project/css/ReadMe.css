@@ -1,0 +1,83 @@
+
+body {
+    background-image: url("../media/retroBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    font-family: cursive; 
+    margin: 0;
+    padding: 0;
+    color: gold; 
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar a {
+    text-decoration: none; 
+    color: #fff;
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    border: 2px solid transparent; /* Transparent border */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    opacity: 100%;
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    opacity: 100%;
+    color: black;
+}
+#navbar {
+    overflow: hidden;
+    background-color:darkviolet;
+    opacity:85% ;
+    top:0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 35px;
+    align-items: center; 
+    flex-wrap: wrap;
+    display: flex;
+    width:fit-content;
+}
+
+#navbar a:hover {
+    background-color:navy; 
+    display:flex;
+    border-radius: 10px;
+}
+
+section {
+    font-size: 24px;
+    margin-top: 20px;
+    padding: 20px;
+    opacity:100%;    
+    text-align: center;
+    text-wrap:wrap;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px; 
+    text-align: center; 
+    font-family: Arial, sans-serif; 
+    margin-top: 30%;
+}
+
+footer p {
+    margin: 0; 
+    font-size: 14px; 
+}
+main {
+    flex: 1;
+}

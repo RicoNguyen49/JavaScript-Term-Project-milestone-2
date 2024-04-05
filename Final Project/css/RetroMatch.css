@@ -1,0 +1,172 @@
+
+body {
+    background-image: url("../media/retroBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    font-family: cursive; 
+    margin: 0;
+    padding: 0;
+    color: gold; 
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#navbar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text for links */
+    padding: 10px 20px; /* Padding inside links */
+    margin: 0 10px; /* Margin between links */
+    border: 2px solid transparent; /* Transparent border */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    opacity: 100%;
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+#navbar h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    opacity: 100%;
+    color: black;
+}
+#navbar {
+    overflow: hidden;
+    background-color:darkviolet;
+    opacity:85% ;
+    top:0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 35px;
+    align-items: center; 
+    flex-wrap: wrap;
+    display: flex;
+    width:fit-content;
+}
+
+#navbar a:hover {
+    background-color:navy; /* Dark gray button background on hover */
+    display:flex;
+    border-radius: 10px;
+}
+
+section {
+    font-size: 24px;
+    margin-top: 20px;
+    padding: 20px;
+    opacity:100%;    
+    text-align: center;
+    text-wrap:wrap;
+}
+
+
+
+
+
+/* The img size = 200*133 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+header h1{
+  text-align: center;
+  color: navy;
+  font-size: 2.5em;
+  text-shadow: 1px 3px #5B6E68;
+}
+
+.grid {
+  width: 50%; 
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flag {
+  position: relative;
+  transition: all .4s linear;
+  transform-style: preserve-3d;
+  margin: 5px;
+}
+
+.flag,
+.back,
+.front {
+  height: 133px;
+  width: 200px;
+}
+
+.back,
+.front {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front {
+  z-index: 2;
+  background: url('../media/world.png');
+  background-position: center;
+  background-size: contain;
+  border: 5px solid white;
+  box-shadow: 3px 2px #5B6E68;
+}
+
+.back {
+  transform: rotateY(180deg);
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.selected {
+  transform: rotateY(180deg);
+}
+
+/* hides the match class cards */
+.match .front {
+  background: #4C7794;
+  border: none;
+  box-shadow: none;
+}
+
+#gameStats{
+  position:relative;
+  top: 20px;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  color: white;
+  align-items: center;
+}
+
+#hidden{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+#playAgain{
+  background-color: #1063A9;
+  border: 2px solid white;
+  padding: 10px;
+  font-size: 1em;
+  font-family: 'Patua One', cursive;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+#playAgain:hover{
+  background-color: #E6B04A;
+  color: 	#1063A9;
+}

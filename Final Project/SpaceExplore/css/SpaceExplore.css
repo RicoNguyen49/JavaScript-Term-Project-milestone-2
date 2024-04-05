@@ -1,0 +1,110 @@
+
+body {
+    background-image: url("../media/retroBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    font-family: cursive; 
+    margin: 0;
+    padding: 0;
+    color: gold; 
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#navbar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* White text for links */
+    padding: 10px 20px; /* Padding inside links */
+    margin: 0 10px; /* Margin between links */
+    border: 2px solid transparent; /* Transparent border */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    opacity: 100%;
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    opacity: 100%;
+    color: black;
+}
+#navbar {
+    overflow: hidden;
+    background-color:darkviolet;
+    opacity:85% ;
+    top:0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 35px;
+    align-items: center; 
+    flex-wrap: wrap;
+    display: flex;
+    width:fit-content;
+}
+
+#navbar a:hover {
+    background-color:navy; /* Dark gray button background on hover */
+    display:flex;
+    border-radius: 10px;
+}
+
+section {
+    font-size: 24px;
+    margin-top: 20px;
+    padding: 20px;
+    opacity:100%;    
+    text-align: center;
+    text-wrap:wrap;
+}
+
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+body{
+    background: linear-gradient(to right, #070101, purple, #070101);
+    background-repeat: repeat-y;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 14pt;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: 	black;
+    text-shadow: 2px 1px magenta;
+}
+button{
+    background-color: #070101; 
+    border: 3px solid mediumvioletred;
+    padding: 1% 1%;
+    margin: 2px;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+button:hover{
+    background-color: aliceblue;
+    color: 	black;
+}
+
+div{
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+canvas{
+    display: inline;
+    border: 10px solid purple;
+}
+footer{
+    text-align: center;
+    margin-top: 2%;
+    color: black;
+}
